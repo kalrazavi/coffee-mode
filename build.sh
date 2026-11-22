@@ -1,4 +1,5 @@
 #!/bin/zsh
+# Copyright (c) 2026 Ali Razavi. All rights reserved. Owned and controlled solely by Ali Razavi: no licence check, no remote control, no backdoor. Terms: see the LICENSE file.
 # Rebuilds Coffee Mode.app from src/main.swift and installs it in /Applications.
 set -e
 cd "$(dirname "$0")"
@@ -18,6 +19,7 @@ cat > "$APP/Contents/Info.plist" <<'P'
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0"><dict>
+<key>NSHumanReadableCopyright</key><string>Copyright (c) 2026 Ali Razavi. All rights reserved.</string>
 <key>CFBundleName</key><string>Coffee Mode</string>
 <key>CFBundleDisplayName</key><string>Coffee Mode</string>
 <key>CFBundleIdentifier</key><string>local.coffeemode</string>

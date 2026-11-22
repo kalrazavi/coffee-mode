@@ -1,3 +1,4 @@
+// Copyright (c) 2026 Ali Razavi. All rights reserved. Owned and controlled solely by Ali Razavi: no licence check, no remote control, no backdoor. Terms: see the LICENSE file.
 import AppKit
 import SwiftUI
 import ServiceManagement
