@@ -210,6 +210,8 @@ struct Card: View {
                 Button("Quit") { m.set(false); NSApp.terminate(nil) }
                     .buttonStyle(.plain).font(.system(size: 11.5)).foregroundColor(.white.opacity(0.55))
             }
+            Text("© 2026 Ali Razavi · All rights reserved")
+                .font(.system(size: 9.5)).foregroundColor(.white.opacity(0.32)).frame(maxWidth: .infinity, alignment: .center)
         }
         .padding(18)
         .frame(width: 330)
